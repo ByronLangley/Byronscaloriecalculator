@@ -1,39 +1,39 @@
 # Byron’s Calorie Calculator
 
-This is a simple, mobile-friendly web app designed to help users understand their calorie needs and track their weight over 2 weeks to estimate their true calorie maintenance.
+Track your average weight over 2 weeks and find out how many calories you're really burning — whether you're in a surplus or deficit.
 
-## 🔧 Features
+## ✨ Features
 
-- Dark mode aesthetic
-- Mobile responsive layout
-- Blue call-to-action buttons
-- White, center-aligned text
-- Organized 2-week weight tracking
-- Calculation of calorie surplus/deficit
-- Maintenance calorie estimate
+- Modern dark mode design
+- Fully mobile responsive
+- Unit toggle for kg/lb
+- Clear calorie recommendations
+- Easy-to-use daily weight tracker
+- Accurate surplus/deficit and maintenance estimates
 
-## 🚀 How to Use
+## 🔧 How to Use
 
-1. **Clone the Repository** or download the files.
+1. Download or clone the repository.
 2. Open `index.html` in your browser.
-3. Enter your starting weight and select your unit (lb or kg).
+3. Enter your starting weight and choose lb or kg.
 4. Click “Get my calorie target”.
-5. Scroll down and input your weight for 14 days.
-6. Click “Calculate my calorie burn” to see your results.
+5. Fill in 14 daily weigh-ins (Week 1 and Week 2).
+6. Click “Calculate my calorie burn”.
+7. Your results will be shown instantly.
 
-## 📁 File Structure
+## 📁 File Overview
 
-- `index.html` — Main HTML structure
-- `style.css` — All styling and responsive design
-- `script.js` — Calculator logic
+- `index.html` — Structure and layout
+- `style.css` — Styling for dark mode, layout, and responsiveness
+- `script.js` — JavaScript logic for calculations and interaction
 - `README.md` — This file
 
-## 🛠 To Run Locally
+## 🖥 Run Locally
 
-1. Make sure you have all 4 files in the same folder.
-2. Open `index.html` in any browser (Chrome, Firefox, etc.).
-3. You're good to go!
+1. Place all files in the same folder.
+2. Double-click `index.html` to open in a browser.
+3. You're good to go.
 
 ---
 
-Created with ❤️ for Byron's fitness followers.
+Built with 💪 for real results. Byron-style.
