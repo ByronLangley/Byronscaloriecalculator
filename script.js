@@ -7,23 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-function createWeightInput(id, label) {
-  const wrapper = document.createElement('div');
-  wrapper.style.margin = '5px';
-
-  const inputLabel = document.createElement('label');
-  inputLabel.textContent = label;
-  inputLabel.style.display = 'block';
-  inputLabel.style.marginBottom = '2px';
-
+function createWeightInput(id, placeholder) {
   const input = document.createElement('input');
   input.type = 'number';
   input.id = id;
-  input.placeholder = label;
-
-  wrapper.appendChild(inputLabel);
-  wrapper.appendChild(input);
-  return wrapper;
+  input.placeholder = placeholder;
+  input.style.margin = '5px';
+  input.style.width = '100px';
+  return input;
 }
 
 function getCalorieTarget() {
